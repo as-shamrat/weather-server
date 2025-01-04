@@ -1,0 +1,23 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    
+  </head>
+  <body>
+   
+    {{>header}}
+    <p>We show weather data, created by {{name}}</p>
+    <img class="portrait" src="/images/robot.png" alt="" />
+    <form>
+      
+      <input name="location" placeholder="location">
+      <button>click</button>
+
+    </form>
+    {{>footer}}
+    <script src="/js/script.js"></script>
+  </body>
+</html>
